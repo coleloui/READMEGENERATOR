@@ -80,7 +80,7 @@ ${description}
 
 *[GitHub](#github)
 ---
-## Installation Guide
+## Installation
 ${install}
 ---
 ## Usage for My Project
@@ -107,7 +107,7 @@ ${userEmail}
             })
 
         function makeReadMe(myREADME) {
-            fs.writeFile("testREADME.md", myREADME, function (err) {
+            fs.writeFile("README.md", myREADME, function (err) {
                 if (err) {
                     return console.log("We did not process your request " + err);
                 } else {
